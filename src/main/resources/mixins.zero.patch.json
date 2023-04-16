@@ -1,0 +1,17 @@
+{
+    "required" : false,
+    "minVersion" : "0.7",
+    "compatibilityLevel" : "JAVA_8",
+    "package" : "me.zero.mixins.patch",
+    "refmap" : "mixins.zero.refmap.json",
+    "client" : [
+        "MixinDisplay",
+        "MixinJsonUtils",
+        "baritone.MixinBaritoneSettings",
+        "gui.MixinGuiInventory",
+        "gui.MixinPacketThreadUtil",
+        "optifine.MixinConfig",
+        "player.MixinPlayerControllerMP",
+        "world.MixinWorld"
+    ]
+}
