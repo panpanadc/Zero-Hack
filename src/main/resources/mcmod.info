@@ -2,7 +2,16 @@
   {
     "modid": "zerohack",
     "name": "ZeroHack",
+    "description": "猫猫雇佣兵01 isGod",
     "version": "0.0.1",
-    "mcversion": "1.12.2"
+    "mcversion": "1.12.2",
+    "url": "ZeroHack.God",
+    "updateUrl": "",
+    "authorList": [
+      "猫猫雇佣兵01",
+      "idea"
+    ],
+    "screenshots": [],
+    "dependencies": []
   }
 ]
