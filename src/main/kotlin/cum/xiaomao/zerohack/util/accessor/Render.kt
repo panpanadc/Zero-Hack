@@ -1,9 +1,9 @@
 package cum.xiaomao.zerohack.util.accessor
 
-import me.zero.mixins.accessor.render.AccessorDestroyBlockProgress
-import me.zero.mixins.accessor.render.AccessorRenderGlobal
-import me.zero.mixins.accessor.render.AccessorRenderManager
-import me.zero.mixins.accessor.render.AccessorShaderGroup
+import cum.xiaomao.zerohack.mixins.accessor.render.AccessorDestroyBlockProgress
+import cum.xiaomao.zerohack.mixins.accessor.render.AccessorRenderGlobal
+import cum.xiaomao.zerohack.mixins.accessor.render.AccessorRenderManager
+import cum.xiaomao.zerohack.mixins.accessor.render.AccessorShaderGroup
 import net.minecraft.client.renderer.DestroyBlockProgress
 import net.minecraft.client.renderer.RenderGlobal
 import net.minecraft.client.renderer.entity.RenderManager

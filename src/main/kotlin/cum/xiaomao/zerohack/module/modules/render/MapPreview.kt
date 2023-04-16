@@ -1,6 +1,6 @@
 package cum.xiaomao.zerohack.module.modules.render
 
-import me.zero.mixins.core.gui.MixinGuiScreen
+import cum.xiaomao.zerohack.mixins.core.gui.MixinGuiScreen
 import cum.xiaomao.zerohack.module.Category
 import cum.xiaomao.zerohack.module.Module
 import cum.xiaomao.zerohack.module.modules.client.GuiSetting

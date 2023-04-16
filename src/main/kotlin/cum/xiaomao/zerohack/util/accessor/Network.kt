@@ -1,6 +1,6 @@
 package cum.xiaomao.zerohack.util.accessor
 
-import me.zero.mixins.accessor.network.*
+import cum.xiaomao.zerohack.mixins.accessor.network.*
 import net.minecraft.network.play.client.*
 import net.minecraft.network.play.server.*
 import net.minecraft.util.EnumFacing

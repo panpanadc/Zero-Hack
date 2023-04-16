@@ -10,7 +10,7 @@ import cum.xiaomao.zerohack.event.events.combat.CombatEvent
 import cum.xiaomao.zerohack.event.events.combat.CrystalSetDeadEvent
 import cum.xiaomao.zerohack.event.events.combat.CrystalSpawnEvent
 import cum.xiaomao.zerohack.manager.Manager
-import me.zero.mixins.accessor.entity.AccessorEntityLivingBase
+import cum.xiaomao.zerohack.mixins.accessor.entity.AccessorEntityLivingBase
 import cum.xiaomao.zerohack.module.AbstractModule
 import cum.xiaomao.zerohack.module.Category
 import cum.xiaomao.zerohack.module.ModuleManager

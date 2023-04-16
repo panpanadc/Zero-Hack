@@ -204,7 +204,6 @@ tasks {
         val excludeNames = hashSetOf("module-info", "MUMFREY", "LICENSE", "kotlinx_coroutines_core")
 
         archiveClassifier.set("Release")
-        archiveClassifier.set("New")
 
         from(
             jar.get().outputs.files.map {

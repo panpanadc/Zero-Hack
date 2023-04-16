@@ -1,7 +1,7 @@
 package cum.xiaomao.zerohack.module.modules.movement
 
 import cum.xiaomao.zerohack.event.SafeClientEvent
-import me.zero.mixins.core.entity.MixinEntity
+import cum.xiaomao.zerohack.mixins.core.entity.MixinEntity
 import cum.xiaomao.zerohack.module.Category
 import cum.xiaomao.zerohack.module.Module
 import cum.xiaomao.zerohack.module.modules.player.Scaffold

@@ -6,8 +6,8 @@ import cum.xiaomao.zerohack.event.events.TickEvent
 import cum.xiaomao.zerohack.event.events.player.InputUpdateEvent
 import cum.xiaomao.zerohack.event.events.player.InteractEvent
 import cum.xiaomao.zerohack.event.safeListener
-import me.zero.mixins.core.world.MixinBlockSoulSand
-import me.zero.mixins.core.world.MixinBlockWeb
+import cum.xiaomao.zerohack.mixins.core.world.MixinBlockSoulSand
+import cum.xiaomao.zerohack.mixins.core.world.MixinBlockWeb
 import cum.xiaomao.zerohack.module.Category
 import cum.xiaomao.zerohack.module.Module
 import cum.xiaomao.zerohack.util.threads.runSafe

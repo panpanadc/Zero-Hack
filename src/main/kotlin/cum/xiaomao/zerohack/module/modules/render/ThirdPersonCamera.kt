@@ -2,7 +2,7 @@ package cum.xiaomao.zerohack.module.modules.render
 
 import cum.xiaomao.zerohack.event.events.InputEvent
 import cum.xiaomao.zerohack.event.listener
-import me.zero.mixins.core.render.MixinEntityRenderer
+import cum.xiaomao.zerohack.mixins.core.render.MixinEntityRenderer
 import cum.xiaomao.zerohack.module.Category
 import cum.xiaomao.zerohack.module.Module
 import cum.xiaomao.zerohack.module.modules.player.Freecam

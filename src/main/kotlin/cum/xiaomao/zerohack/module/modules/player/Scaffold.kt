@@ -10,7 +10,7 @@ import cum.xiaomao.zerohack.event.listener
 import cum.xiaomao.zerohack.event.safeListener
 import cum.xiaomao.zerohack.manager.managers.HotbarManager.spoofHotbar
 import cum.xiaomao.zerohack.manager.managers.PlayerPacketManager.sendPlayerPacket
-import me.zero.mixins.core.entity.MixinEntity
+import cum.xiaomao.zerohack.mixins.core.entity.MixinEntity
 import cum.xiaomao.zerohack.module.Category
 import cum.xiaomao.zerohack.module.Module
 import cum.xiaomao.zerohack.util.EntityUtils.lastTickPos

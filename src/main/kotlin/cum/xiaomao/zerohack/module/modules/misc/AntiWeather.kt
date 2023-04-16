@@ -1,6 +1,6 @@
 package cum.xiaomao.zerohack.module.modules.misc
 
-import me.zero.mixins.core.world.MixinWorld
+import cum.xiaomao.zerohack.mixins.core.world.MixinWorld
 import cum.xiaomao.zerohack.module.Category
 import cum.xiaomao.zerohack.module.Module
 

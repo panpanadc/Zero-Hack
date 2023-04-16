@@ -10,7 +10,7 @@ import cum.xiaomao.zerohack.event.listener
 import cum.xiaomao.zerohack.event.safeListener
 import cum.xiaomao.zerohack.manager.Manager
 import cum.xiaomao.zerohack.util.accessor.entityID
-import me.zero.mixins.accessor.entity.AccessorEntityLivingBase
+import cum.xiaomao.zerohack.mixins.accessor.entity.AccessorEntityLivingBase
 import net.minecraft.entity.player.EntityPlayer
 import net.minecraft.network.play.server.SPacketAnimation
 import net.minecraft.network.play.server.SPacketEntityMetadata

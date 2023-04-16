@@ -2,9 +2,9 @@ package cum.xiaomao.zerohack.module.modules.player
 
 import cum.xiaomao.zerohack.event.events.PacketEvent
 import cum.xiaomao.zerohack.event.listener
-import me.zero.mixins.core.MixinMinecraft
-import me.zero.mixins.core.render.MixinEntityRenderer
-import me.zero.mixins.core.world.MixinBlockLiquid
+import cum.xiaomao.zerohack.mixins.core.MixinMinecraft
+import cum.xiaomao.zerohack.mixins.core.render.MixinEntityRenderer
+import cum.xiaomao.zerohack.mixins.core.world.MixinBlockLiquid
 import cum.xiaomao.zerohack.module.Category
 import cum.xiaomao.zerohack.module.Module
 import cum.xiaomao.zerohack.util.accessor.side

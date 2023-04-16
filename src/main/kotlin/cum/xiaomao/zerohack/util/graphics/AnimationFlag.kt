@@ -1,7 +1,5 @@
 package cum.xiaomao.zerohack.util.graphics
 
-import me.zero.util.graphics.InterpolateFunction
-
 class AnimationFlag(private val interpolation: InterpolateFunction) {
 
     constructor(easing: Easing, length: Float) : this({ time, prev, current ->

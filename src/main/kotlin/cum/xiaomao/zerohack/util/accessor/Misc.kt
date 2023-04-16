@@ -1,8 +1,8 @@
 package cum.xiaomao.zerohack.util.accessor
 
-import me.zero.mixins.accessor.*
-import me.zero.mixins.accessor.entity.AccessorEntity
-import me.zero.mixins.accessor.entity.AccessorEntityTippedArrow
+import cum.xiaomao.zerohack.mixins.accessor.*
+import cum.xiaomao.zerohack.mixins.accessor.entity.AccessorEntity
+import cum.xiaomao.zerohack.mixins.accessor.entity.AccessorEntityTippedArrow
 import net.minecraft.client.Minecraft
 import net.minecraft.client.settings.KeyBinding
 import net.minecraft.entity.Entity

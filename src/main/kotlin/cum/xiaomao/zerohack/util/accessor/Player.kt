@@ -1,6 +1,6 @@
 package cum.xiaomao.zerohack.util.accessor
 
-import me.zero.mixins.accessor.player.AccessorPlayerControllerMP
+import cum.xiaomao.zerohack.mixins.accessor.player.AccessorPlayerControllerMP
 import net.minecraft.client.multiplayer.PlayerControllerMP
 
 var PlayerControllerMP.blockHitDelay: Int

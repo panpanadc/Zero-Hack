@@ -4,8 +4,8 @@ import cum.xiaomao.zerohack.event.events.PacketEvent
 import cum.xiaomao.zerohack.event.events.player.PlayerPushOutOfBlockEvent
 import cum.xiaomao.zerohack.event.listener
 import cum.xiaomao.zerohack.event.safeListener
-import me.zero.mixins.core.entity.MixinEntity
-import me.zero.mixins.core.world.MixinBlockLiquid
+import cum.xiaomao.zerohack.mixins.core.entity.MixinEntity
+import cum.xiaomao.zerohack.mixins.core.world.MixinBlockLiquid
 import cum.xiaomao.zerohack.module.Category
 import cum.xiaomao.zerohack.module.Module
 import cum.xiaomao.zerohack.util.accessor.packetMotionX

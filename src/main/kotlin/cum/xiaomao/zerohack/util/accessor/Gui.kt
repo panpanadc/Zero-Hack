@@ -1,9 +1,9 @@
 package cum.xiaomao.zerohack.util.accessor
 
-import me.zero.mixins.accessor.gui.AccessorGuiBossOverlay
-import me.zero.mixins.accessor.gui.AccessorGuiChat
-import me.zero.mixins.accessor.gui.AccessorGuiDisconnected
-import me.zero.mixins.accessor.gui.AccessorGuiEditSign
+import cum.xiaomao.zerohack.mixins.accessor.gui.AccessorGuiBossOverlay
+import cum.xiaomao.zerohack.mixins.accessor.gui.AccessorGuiChat
+import cum.xiaomao.zerohack.mixins.accessor.gui.AccessorGuiDisconnected
+import cum.xiaomao.zerohack.mixins.accessor.gui.AccessorGuiEditSign
 import net.minecraft.client.gui.*
 import net.minecraft.client.gui.inventory.GuiEditSign
 import net.minecraft.tileentity.TileEntitySign

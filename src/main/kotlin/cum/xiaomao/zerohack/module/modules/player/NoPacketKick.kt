@@ -1,6 +1,6 @@
 package cum.xiaomao.zerohack.module.modules.player
 
-import me.zero.mixins.core.network.MixinNetworkManager
+import cum.xiaomao.zerohack.mixins.core.network.MixinNetworkManager
 import cum.xiaomao.zerohack.module.Category
 import cum.xiaomao.zerohack.module.Module
 import cum.xiaomao.zerohack.util.text.MessageSendUtils.sendNoSpamWarningMessage
