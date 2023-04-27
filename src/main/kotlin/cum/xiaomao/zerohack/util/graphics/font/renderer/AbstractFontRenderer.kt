@@ -56,7 +56,14 @@ abstract class AbstractFontRenderer(font: Font, size: Float, private val texture
         return FontGlyphs(style.ordinal, font.deriveFont(style.styleConst, size), fallbackFont, textureSize)
     }
 
-    override fun drawString(charSequence: CharSequence, posX: Float, posY: Float, color: ColorRGB, scale: Float, drawShadow: Boolean) {
+    override fun drawString(
+        charSequence: CharSequence,
+        posX: Float,
+        posY: Float,
+        color: ColorRGB,
+        scale: Float,
+        drawShadow: Boolean
+    ) {
         if (cleanTimer.tickAndReset(1000L)) {
             val current = System.currentTimeMillis()
             renderStringMap.values.removeIf {

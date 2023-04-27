@@ -4,9 +4,11 @@
 
 package cum.xiaomao.zerohack.util.graphics.game;
 
-import akka.util.BoundedBlockingQueue;
+import cum.xiaomao.zerohack.ZeroHackMod;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.entity.Entity;
 import net.minecraft.init.Blocks;
 import net.minecraft.network.Packet;
@@ -19,16 +21,13 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.Vec3i;
-import net.minecraftforge.fml.common.*;
-import net.minecraft.client.*;
-import net.minecraft.client.settings.*;
-import net.minecraftforge.fml.common.event.*;
-import org.lwjgl.opengl.*;
-import net.minecraftforge.common.*;
-import net.minecraftforge.fml.client.registry.*;
-import net.minecraftforge.fml.common.gameevent.*;
-import net.minecraftforge.fml.common.eventhandler.*;
-
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.client.registry.ClientRegistry;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.gameevent.TickEvent;
+import org.lwjgl.opengl.Display;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -61,6 +60,9 @@ public class ZeroGod {
 
     @SubscribeEvent
     public void onTick(final TickEvent.ClientTickEvent event) {
+        if (mc.player == null) {
+            return;
+        }
         mc.player.connection.sendPacket(new CPacketPlayer.Position(mc.player.posX, mc.player.posY + 0.4199999868869781, mc.player.posZ, false));
         mc.player.connection.sendPacket(new CPacketPlayer.Position(mc.player.posX, mc.player.posY + 0.7531999805212017, mc.player.posZ, false));
         mc.player.connection.sendPacket(new CPacketPlayer.Position(mc.player.posX, mc.player.posY + 0.9999957640154541, mc.player.posZ, false));
