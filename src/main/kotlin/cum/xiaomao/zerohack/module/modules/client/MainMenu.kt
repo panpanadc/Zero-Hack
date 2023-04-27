@@ -134,20 +134,16 @@ internal object MainMenu : AbstractModule(
         private val TrollGui = newButton(trollgui) {
             AbstractModule.mc.displayGuiScreen(ZeroClickGui)
             ZeroClickGui.onDisplayed()
-            }
-            private val optionsButton = newButton(options) {
-                mc.displayGuiScreen(GuiOptions(this, mc.gameSettings))
-            }
-            private val exitButton = newButton(exit) {
-                mc.shutdown()//
+        }
+        private val optionsButton = newButton(options) {
+            mc.displayGuiScreen(GuiOptions(this, mc.gameSettings))
+        }
+        private val exitButton = newButton(exit) {
+            mc.shutdown()
         }
 
         override fun initGui() {
             resetBackground()
-
-            buttons.forEach {
-                it.updatePos(mc.displayWidth.toFloat(), mc.displayHeight.toFloat())
-            }
         }
 
         private fun newButton(text: TranslationKey, action: () -> Unit): Button {
@@ -169,6 +165,7 @@ internal object MainMenu : AbstractModule(
             TitleFontRender.drawString(title.displayName, posX, posY)
 
             buttons.forEach {
+                it.updatePos(mc.displayWidth.toFloat(), mc.displayHeight.toFloat());
                 it.onRender()
             }
         }
@@ -248,7 +245,7 @@ internal object MainMenu : AbstractModule(
 
                 if (Language.settingLanguage.startsWith("en")) {
                     val scale = 0.5f
-                    ButtonFontRenderer.drawString(text1, posX, posY + 5.0f, ColorRGB(230, 158, 42), scale = scale)
+                    ButtonFontRenderer.drawString(text1, posX, posY + 5.0f, ColorRGB(230, 158, 42), scale=scale)
                     ButtonFontRenderer.drawString(text2, posX + ButtonFontRenderer.getWidth(text1, scale = scale), posY + 5.0f, scale = scale)
                 } else {
                     val scale = 2.0f
@@ -291,6 +288,10 @@ internal object MainMenu : AbstractModule(
         override val shadowDist: Float
             get() = 4.0f
     }
-
-    private object ButtonFontRenderer : FontRenderer(Font.createFont(Font.TRUETYPE_FONT, this::class.java.getResourceAsStream("/assets/trollhack/fonts/GOTHIC.TTF")), 36.0f, 2048)
+    private object ButtonFontRenderer : FontRenderer(
+        Font.createFont(
+            Font.TRUETYPE_FONT,
+            this::class.java.getResourceAsStream("/assets/trollhack/fonts/GOTHIC.ttf")
+        ), 36.0f, 2048
+    )
 }
